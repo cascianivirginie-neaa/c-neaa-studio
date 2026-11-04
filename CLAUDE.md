@@ -11,6 +11,11 @@ Repo GitHub : cascianivirginie-neaa/c-neaa-studio (branche main).
 - Titres : Bricolage Grotesque ; texte : Inter.
 - Une couleur par produit : Invoxa bleu, Néora violet, Drive Flow cyan, Neaakor rose.
 
+## Code des formes (à respecter partout)
+- Arrondi 8px : boutons, badges, icônes (tout ce qui est petit ou cliquable).
+- Carré (radius 0) : grands blocs (aperçu hero, référence client, produits, CTA final).
+- Trait au-dessus, sans cadre : listes (Expertises, Méthode).
+
 ## Contenu
 - Sections : hero, bandeau confiance, Services (4), Méthode (4 étapes), Produits, CTA audit gratuit, footer (SIRET, mentions légales).
 - Pas de section Réalisations ni de chiffres tant que les projets ne sont pas finis.
