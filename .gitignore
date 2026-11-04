@@ -4,3 +4,8 @@ C-neaa Studio/
 index-old.html
 index-backup.html
 autoecole-dashboard.jsx
+
+# Contexte prive - ne jamais publier
+CERVEAU_*.md
+CONTEXTE_*.md
+.DS_Store
