@@ -8,7 +8,7 @@ Repo GitHub : cascianivirginie-neaa/c-neaa-studio (branche main).
 ## Design (validé le 04/11/2026)
 - Base blanche + un seul bleu #1D4ED8 ; texte bleu nuit #0B1B3A.
 - Touches "noir flashy" uniquement : hero (fond #070B1A + halos bleu/violet/rose), section Méthode (noir uni), bloc CTA final (dégradé bleu > violet > rose), footer noir.
-- Titres : Bricolage Grotesque ; texte : Inter.
+- Titres : Cormorant Garamond (600) ; texte : Inter.
 - Une couleur par produit : Invoxa bleu, Néora violet, Drive Flow cyan, Neaakor rose.
 
 ## Code des formes (à respecter partout)
