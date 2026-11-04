@@ -2,7 +2,7 @@
 
 ## Projet
 Site vitrine statique de NEAA Studio : une seule page `index.html` (HTML + CSS inline, polices Google Fonts).
-Baseline : "Studio de logiciels pour les TPE et indépendants — IA & automatisation".
+Baseline : "Studio de logiciels pour les TPE et PME — IA & automatisation".
 Repo GitHub : cascianivirginie-neaa/c-neaa-studio (branche main).
 
 ## Design (validé le 04/11/2026)
@@ -17,7 +17,7 @@ Repo GitHub : cascianivirginie-neaa/c-neaa-studio (branche main).
 - Trait au-dessus, sans cadre : listes (Expertises, Méthode).
 
 ## Contenu
-- Sections : hero, bandeau confiance, Services (4), Méthode (4 étapes), Produits, CTA audit gratuit, footer (SIRET, mentions légales).
+- Sections : hero, bandeau confiance, Services (4), Méthode (5 étapes), Technologies, Tarifs (+ page tarifs.html), Produits, CTA rendez-vous découverte offert, footer (SIRET, mentions légales).
 - Pas de section Réalisations ni de chiffres tant que les projets ne sont pas finis.
 - Seul Drive Flow a un lien actif ; Invoxa, Néora, Neaakor = "Bientôt disponible".
 - Ne jamais inventer de chiffres ou de témoignages.
@@ -31,3 +31,9 @@ Repo GitHub : cascianivirginie-neaa/c-neaa-studio (branche main).
 - VPS Hostinger, Caddy en Docker, même modèle que go.c-neaa.com (file_server).
 - Ne jamais toucher aux blocs n8n, invoxa, driveflow (port 3000), neora, go.
 - Toujours sauvegarder Caddyfile et docker-compose.yml avant modification.
+
+## Vocabulaire (harmonisé le 04/11/2026)
+- Cible : "TPE et PME" (plus "indépendants").
+- Premier contact gratuit = "rendez-vous découverte" (30 min, offert). Ne plus utiliser "diagnostic" ni "audit gratuit".
+- "Audit technique" = prestation payante (à partir de 240 euros HT).
+- Boutons : "Prendre rendez-vous" (gratuit), "Parler de mon projet" (prix à partir de), "Demander un devis" (sur devis).
