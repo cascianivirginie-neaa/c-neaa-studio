@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact et rendez-vous — NEAA Studio</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NEAA Studio">
+<meta property="og:title" content="Contact et rendez-vous — NEAA Studio">
+<meta property="og:description" content="Décrivez votre besoin en 2 minutes : nous revenons vers vous sous 48 h ouvrées. Rendez-vous découverte offert.">
+<meta property="og:url" content="https://c-neaa.com/contact.html">
+<meta property="og:image" content="https://c-neaa.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#070B1A">
+<meta name="description" content="Décrivez votre besoin en 2 minutes : nous revenons vers vous sous 48 h ouvrées. Rendez-vous découverte offert.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+html{font-variant-numeric:lining-nums}
+body{margin:0;background:#FFFFFF;color:#0B1B3A;font-family:Inter,sans-serif}
+a{text-decoration:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.hero{background:radial-gradient(ellipse 760px 420px at 12% 0%,rgba(37,99,235,0.45),transparent 62%),radial-gradient(ellipse 700px 420px at 92% 40%,rgba(219,39,119,0.28),transparent 60%),#070B1A;color:#FFFFFF}
+.hero-c{max-width:1200px;margin:0 auto;padding:64px 24px 80px;display:flex;flex-direction:column;gap:20px}
+.eyebrow{margin:0;font-size:14px;font-weight:600;color:#8FB0FF}
+h1{margin:0;font-family:'Cormorant Garamond', Georgia, serif;font-weight:600;font-size:clamp(44px,6vw,72px);line-height:1.04;max-width:860px}
+.lead{margin:0;font-size:18px;line-height:1.65;color:#C3CAE0;max-width:680px}
+.layout{display:flex;flex-wrap:wrap;gap:56px;padding:72px 0 96px}
+form{flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:28px}
+aside{flex:1 1 280px;display:flex;flex-direction:column;gap:28px}
+aside div{border-top:2px solid #0B1B3A;padding-top:18px}
+aside div:first-child{border-top-color:#1D4ED8}
+aside h3{margin:0 0 6px;font-size:17px}
+aside p{margin:0;font-size:15px;line-height:1.6;color:#4A5670}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:16px}
+legend{font-family:'Cormorant Garamond', Georgia, serif;font-weight:600;font-size:30px;margin-bottom:12px;padding:0}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.f{display:flex;flex-direction:column;gap:8px}
+.f label{font-size:14px;font-weight:600}
+input[type=text],input[type=email],input[type=tel],select,textarea{font:inherit;font-size:16px;color:#0B1B3A;border:1px solid #C5CCD6;border-radius:8px;padding:13px 14px;background:#FFFFFF}
+input:focus,select:focus,textarea:focus{outline:2px solid #1D4ED8;outline-offset:1px;border-color:#1D4ED8}
+textarea{min-height:140px;resize:vertical}
+.chks{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.chk{display:flex;align-items:center;gap:12px;border:1px solid #D3DAE6;border-radius:8px;padding:13px 14px;cursor:pointer;font-size:15px}
+.chk input{width:18px;height:18px;accent-color:#1D4ED8;margin:0}
+.chk:has(input:checked){border-color:#1D4ED8;background:#EEF3FF}
+.radios{display:flex;flex-wrap:wrap;gap:10px}
+.rgpd{display:flex;gap:12px;align-items:flex-start;font-size:14px;line-height:1.6;color:#4A5670}
+.rgpd input{width:18px;height:18px;margin-top:3px;accent-color:#1D4ED8;flex:0 0 auto}
+.rgpd a{color:#1D4ED8;text-decoration:underline}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+button{align-self:flex-start;font:inherit;background:#0B1B3A;color:#FFFFFF;border:0;border-radius:8px;padding:17px 28px;font-weight:600;font-size:16px;cursor:pointer}
+button:hover{background:#1D4ED8}
+button[disabled]{opacity:.6;cursor:wait}
+.msg{display:none;padding:20px 22px;font-size:16px;line-height:1.6}
+.msg.ok{display:block;background:#E7F7EE;color:#0E5C34;border-left:3px solid #11703F}
+.msg.err{display:block;background:#FDECEC;color:#8A1C1C;border-left:3px solid #B91C1C}
+.msg a{color:inherit;text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="hero">
+<header style="max-width: 1200px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<a href="/#" style="display: flex; align-items: center; gap: 10px; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 25px; letter-spacing: -0.01em; color: #FFFFFF"><img src="/img/neaa-logo.png" alt="Logo NEAA Studio" width="48" height="48" style="width: 48px; height: 48px; border-radius: 8px">NEAA Studio</a>
+<nav style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 15px; font-weight: 500">
+<a href="/#services" style="color: #C3CAE0">Expertises</a>
+<a href="/#methode" style="color: #C3CAE0">Méthode</a>
+<a href="/#references" style="color: #C3CAE0">Références</a>
+<a href="/tarifs.html" style="color: #C3CAE0">Tarifs</a>
+<a href="/#produits" style="color: #C3CAE0">Produits</a>
+<a href="/contact.html?besoin=rdv" style="background: #FFFFFF; color: #0B1B3A; padding: 12px 20px; border-radius: 8px; font-weight: 600">Prendre rendez-vous</a>
+</nav>
+</header>
+<div class="hero-c">
+<p class="eyebrow">Contact et rendez-vous</p>
+<h1>Parlons de votre projet.</h1>
+<p class="lead">Décrivez votre besoin en 2 minutes. Nous revenons vers vous sous 48 h ouvrées pour fixer votre rendez-vous découverte, offert et sans engagement.</p>
+</div>
+</div>
+<main class="wrap">
+<div class="layout">
+<form id="contact" novalidate>
+<fieldset><legend>Vous</legend>
+<div class="row">
+<div class="f"><label for="nom">Nom et prénom *</label><input type="text" id="nom" name="nom" autocomplete="name" required></div>
+<div class="f"><label for="entreprise">Entreprise</label><input type="text" id="entreprise" name="entreprise" autocomplete="organization"></div>
+</div>
+<div class="row">
+<div class="f"><label for="email">Email *</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+<div class="f"><label for="tel">Téléphone</label><input type="tel" id="tel" name="telephone" autocomplete="tel"></div>
+</div>
+</fieldset>
+<fieldset><legend>Votre besoin</legend>
+<div class="chks"><label class="chk"><input type="checkbox" name="besoins" value="rdv"><span>Rendez-vous découverte</span></label><label class="chk"><input type="checkbox" name="besoins" value="audit"><span>Audit technique</span></label><label class="chk"><input type="checkbox" name="besoins" value="automatisation"><span>Automatisation</span></label><label class="chk"><input type="checkbox" name="besoins" value="api"><span>Intégration API</span></label><label class="chk"><input type="checkbox" name="besoins" value="application"><span>Application métier / tableau de bord</span></label><label class="chk"><input type="checkbox" name="besoins" value="site-vitrine"><span>Site vitrine</span></label><label class="chk"><input type="checkbox" name="besoins" value="site-dynamique"><span>Site dynamique</span></label><label class="chk"><input type="checkbox" name="besoins" value="ia"><span>Assistant IA / MCP</span></label><label class="chk"><input type="checkbox" name="besoins" value="maintenance"><span>Maintenance</span></label><label class="chk"><input type="checkbox" name="besoins" value="autre"><span>Autre</span></label></div>
+<div class="row">
+<div class="f"><label for="budget">Budget envisagé</label><select id="budget" name="budget"><option value="">Choisir…</option><option>Moins de 1 000 €</option><option>1 000 à 3 000 €</option><option>3 000 à 6 000 €</option><option>Plus de 6 000 €</option><option>Je ne sais pas encore</option></select></div>
+<div class="f"><label for="delai">Délai souhaité</label><select id="delai" name="delai"><option value="">Choisir…</option><option>Dès que possible</option><option>Dans 1 à 3 mois</option><option>Plus tard</option><option>Pas de date précise</option></select></div>
+</div>
+<div class="f"><label for="message">Votre projet en quelques mots *</label><textarea id="message" name="message" required placeholder="Votre activité, ce qui vous fait perdre du temps, ce que vous aimeriez améliorer…"></textarea></div>
+</fieldset>
+<fieldset><legend>Votre rendez-vous découverte</legend>
+<div class="radios">
+<label class="chk"><input type="radio" name="rdv" value="Visio" checked><span>Visio</span></label>
+<label class="chk"><input type="radio" name="rdv" value="Téléphone"><span>Téléphone</span></label>
+<label class="chk"><input type="radio" name="rdv" value="Sur place (Corse)"><span>Sur place (Corse)</span></label>
+</div>
+</fieldset>
+<div class="hp" aria-hidden="true"><label for="site_web">Ne pas remplir</label><input type="text" id="site_web" name="site_web" tabindex="-1" autocomplete="off"></div>
+<label class="rgpd"><input type="checkbox" id="rgpd" name="rgpd" required><span>J'accepte que NEAA Studio utilise ces informations pour répondre à ma demande. Elles ne sont ni vendues ni cédées. <a href="/confidentialite.html">Politique de confidentialité</a>.</span></label>
+<button type="submit" id="envoyer">Envoyer ma demande</button>
+<div id="msg" class="msg" role="status" aria-live="polite"></div>
+</form>
+<aside>
+<div><h3>Réponse sous 48 h ouvrées</h3><p>Nous lisons chaque demande et revenons vers vous rapidement.</p></div>
+<div><h3>Rendez-vous découverte offert</h3><p>30 minutes pour comprendre votre activité et envisager les bonnes solutions.</p></div>
+<div><h3>Sans engagement</h3><p>Vous recevez ensuite, si vous le souhaitez, une proposition chiffrée.</p></div>
+<div><h3>Vous préférez écrire ?</h3><p><a href="mailto:contact@c-neaa.com" style="color:#1D4ED8;text-decoration:underline">contact@c-neaa.com</a></p></div>
+</aside>
+</div>
+</main>
+<footer style="background: #070B1A; color: #C3CAE0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px 36px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 320px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 23px; color: #FFFFFF">NEAA Studio</span><span style="font-size: 14px; line-height: 1.6; color: #9AA3BF">Studio de logiciels pour les TPE et PME — IA &amp; automatisation.</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px"><span style="font-weight: 600; color: #FFFFFF">Contact</span><a href="mailto:contact@c-neaa.com" style="color: #C3CAE0">contact@c-neaa.com</a><span>Lucciana, Haute-Corse</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px"><span style="font-weight: 600; color: #FFFFFF">Légal</span><a href="/mentions-legales.html" style="color: #C3CAE0">Mentions légales</a><a href="/confidentialite.html" style="color: #C3CAE0">Confidentialité</a><a href="/cgv.html" style="color: #C3CAE0">CGV</a></div>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px 32px; font-size: 13px; color: #8790AD">© 2026 NEAA Studio — SIRET 528 409 493 00053</div>
+</footer>
+<script>
+(function(){
+  var WEBHOOK='https://n8n.c-neaa.com/webhook/contact-neaa';
+  var debut=Date.now();
+  var f=document.getElementById('contact'), msg=document.getElementById('msg'), btn=document.getElementById('envoyer');
+  var b=new URLSearchParams(location.search).get('besoin');
+  if(b){ b.split(',').forEach(function(v){ var c=f.querySelector('input[name=besoins][value="'+v+'"]'); if(c) c.checked=true; }); }
+  function erreur(t){ msg.className='msg err'; msg.innerHTML=t; }
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!f.nom.value.trim()||!f.email.checkValidity()||!f.email.value||!f.message.value.trim()){ erreur('Merci de renseigner votre nom, un email valide et quelques mots sur votre projet.'); return; }
+    if(!f.rgpd.checked){ erreur('Merci de cocher la case de consentement pour envoyer votre demande.'); return; }
+    if(f.site_web.value||Date.now()-debut<3000){ msg.className='msg ok'; msg.textContent='Merci, votre demande a bien été envoyée.'; f.reset(); return; }
+    var data={nom:f.nom.value.trim(),entreprise:f.entreprise.value.trim(),email:f.email.value.trim(),telephone:f.telephone.value.trim(),
+      besoins:[].map.call(f.querySelectorAll('input[name=besoins]:checked'),function(c){return c.nextElementSibling.textContent;}),
+      budget:f.budget.value,delai:f.delai.value,message:f.message.value.trim(),rdv:(f.querySelector('input[name=rdv]:checked')||{}).value||'',
+      page:document.referrer||'',date:new Date().toISOString()};
+    btn.disabled=true; btn.textContent='Envoi en cours…';
+    fetch(WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+      .then(function(r){ if(!r.ok) throw new Error(r.status);
+        msg.className='msg ok'; msg.textContent='Merci '+data.nom.split(' ')[0]+', votre demande a bien été envoyée. Nous revenons vers vous sous 48 h ouvrées.'; f.reset(); })
+      .catch(function(){ erreur('L\'envoi n\'a pas fonctionné. Vous pouvez nous écrire directement à <a href="mailto:contact@c-neaa.com">contact@c-neaa.com</a>.'); })
+      .finally(function(){ btn.disabled=false; btn.textContent='Envoyer ma demande'; });
+  });
+})();
+</script>
+</body>
+</html>
